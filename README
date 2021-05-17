@@ -1,0 +1,13 @@
+#Invoke Application:
+1) call ./clusterer <dataset> [-o output] [-k n] [-bin b]
+2) Use make run command - need to change arguments in the Makefile
+
+clusterer.h:
+Methods used in clusterer.cpp and public members are declared
+Feature Struct is also declared
+
+clusterer.cpp:
+Functionality of methods used are defined in this file
+
+driver.cpp:
+This file parses the command line to get the arguments that are needed to call the Clusterer methods.
